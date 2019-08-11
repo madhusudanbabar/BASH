@@ -11,6 +11,6 @@ then
 		fi
 	done
 else
-	echo "error you must specify the start and endpoint"
+	echo -e "$0: missing operands \nerror you must specify the start and endpoint" >&2
 
 fi
